@@ -33,7 +33,7 @@ color: limegreen;
 
 main, header{
   width: 290px;
-  margin: 0 auto;
+  margin: 0 419px;
 }
 
 header{
@@ -140,4 +140,17 @@ button{
   font-size: 10px;
   padding: 5px;
   align-self: center;
+}
+@media(max-width:768px){
+  main , header{
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+    padding: 0 10px;
+  }
+  h1{
+    font-size: 48px;
+    text-align: center;
+  }
+  
 }
