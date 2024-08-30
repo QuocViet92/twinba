@@ -154,3 +154,17 @@ button{
   }
   
 }
+#twimba-app{
+  display: none;
+}
+.btn-name{
+  min-height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.btn{
+  height: 100px;
+  width: 100px;
+}
